@@ -3,4 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    /*Strings for activity_main.xml*/
+    <string name="caption">BMI</string>
+    <string name="body_weight">Fill in your body weight</string>
+    <string name="body_height">Fill in your body height</string>
+    <string name="age">Fill in your age(optional)</string>
+    <string name="name">Fill in your name(optional)</string>
 </resources>
+

@@ -1,11 +1,85 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:weightSum="1">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/caption"
+        android:id="@+id/caption_txtView"
+        android:textSize="70sp"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"/>
 
-</RelativeLayout>
+    <TableLayout
+        android:background="@android:color/holo_green_light"
+        android:layout_marginTop="10sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow
+            android:background="@android:color/background_light">
+            <TextView
+                android:hint="@string/body_weight"
+                android:textColorHint="@android:color/holo_green_dark"
+                android:textSize="15sp"
+                android:editable="false"
+                />
+            <EditText
+                android:id="@+id/body_weight"
+                />
+        </TableRow>
+        <TableRow
+            android:background="@android:color/holo_green_dark"
+            >
+            <TextView
+                android:hint="@string/body_height"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="15sp"
+                android:editable="false"
+                />
+            <EditText
+                android:id="@+id/body_height"
+                />
+        </TableRow>
+        <TableRow
+            android:background="@android:color/background_light"
+            >
+            <TextView
+                android:hint="@string/age"
+                android:textColorHint="@android:color/holo_green_dark"
+                android:textSize="15sp"
+                android:editable="false"
+                />
+            <EditText
+                android:id="@+id/age"
+                />
+
+        </TableRow>
+        <TableRow
+            android:background="@android:color/holo_green_dark"
+            >
+            <TextView
+                android:hint="@string/name"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="15sp"
+                android:editable="false"
+                />
+            <EditText
+                android:id="@+id/name"
+                />
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</LinearLayout>
