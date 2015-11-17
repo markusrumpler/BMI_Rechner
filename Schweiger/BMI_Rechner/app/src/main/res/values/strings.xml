@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BMI_Rechner</string>
+    <string name="app_name">Body Mass Index</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -10,5 +10,6 @@
     <string name="body_height">Fill in your body height</string>
     <string name="age">Fill in your age(optional)</string>
     <string name="name">Fill in your name(optional)</string>
+    <string name="button_name">Calculate</string>
 </resources>
 
