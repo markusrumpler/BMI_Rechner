@@ -11,5 +11,14 @@
     <string name="age">Fill in your age(optional)</string>
     <string name="name">Fill in your name(optional)</string>
     <string name="button_name">Calculate</string>
+
+    /*Strings for bmi_einstellungen.xml*/
+    <string name="txt_einstell_cat_title_allg">Allgemein</string>
+    <string name="txt_einstell_nickname">Nickname</string>
+    <string name="title_activity_show_bmi">Ihr BMI</string>
+
+    /*Strings for showBMI.xml*/
+    <string name="back_button">Erneut berechnen</string>
+    <string name="show_BMI_table">BMI Tabelle</string>
 </resources>
 
